@@ -1,0 +1,7 @@
+#include "varint.h"
+
+
+ENCODER(32)
+ENCODER(64)
+DECODER(32)
+DECODER(64)
