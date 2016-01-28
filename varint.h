@@ -41,5 +41,8 @@
   uvarint_decode##SIZE (uint8_t buf[], size_t bufsize, uint##SIZE##_t *val);
 
 
+DECL_ENCODER(32)
 DECL_DECODER(32)
+
+DECL_ENCODER(64)
 DECL_DECODER(64)
